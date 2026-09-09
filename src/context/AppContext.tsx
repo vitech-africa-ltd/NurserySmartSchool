@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState, useCallback, useEffect, ReactNode } from 'react';
+import React, { createContext, useContext, useState, useCallback, useEffect, useRef, ReactNode } from 'react';
 import { children as initialChildren, teachers as initialTeachers, classes as initialClasses, parents as initialParents } from '../data/demo';
 
 export type UserRole = 'super_admin' | 'headteacher' | 'teacher' | 'assistant_teacher' | 'accountant' | 'nurse' | 'parent' | 'driver';

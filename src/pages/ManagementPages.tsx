@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { children, teachers, classes, payments, fees, events, announcements, todayAttendance, revenueData, attendanceChartData, schoolSettings, admissions, observations, activities, learningAreas, meals, certificates } from '../data/demo';
 import { useApp } from '../context/AppContext';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, AreaChart, Area } from 'recharts';

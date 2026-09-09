@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { schoolSettings, classes, teachers, events, learningAreas } from '../data/demo';
 import { ArrowRight, Check, Sparkles, Calendar } from 'lucide-react';
